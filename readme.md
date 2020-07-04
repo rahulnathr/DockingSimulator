@@ -44,3 +44,4 @@ vagrant up
     - Add the ship information using load button on GUI and select "shipinfo.csv".
     - Can play around the final GUI using the sliders.
 8. All code is based on python 3.6.9
+9. Shutdown Vagrant and Virtual box by using the command ``` vagrant halt ``` in Command prompt
