@@ -29,5 +29,18 @@ vagrant up
     - install an Ubuntu 18.04 version on Virtualbox
     - Create a Desktop Environment for the Linux(essential in our case)
     - Install all used dependencies for the current python code.Numpy,matplotlib etc.
-    - Create a login screen for the Linux
+    - Create a login screen for the Linux :
+        ![Login Screen](https://github.com/rahulnathr/DockingSimulator/blob/master/loginscreen.JPG)
     
+
+6. In the login screen of the Linux in Virtualbox
+    - Navigate to Vagrant User
+    - Use password as ```vagrant ```
+    
+7. In the Linux desktop, open Terminal
+    - Navigate to the synced_folder(folder from host and vagrant) using ``` cd /vagrant/ ```
+    - You should be able to see our python files and Csv files if you have copied the files as per step 3.
+    - Run application using ```python3 controller.py```
+    - Add the ship information using load button on GUI and select "shipinfo.csv".
+    - Can play around the final GUI using the sliders.
+8. All code is based on python 3.6.9
