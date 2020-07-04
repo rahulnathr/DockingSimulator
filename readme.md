@@ -20,7 +20,7 @@ vagrant --version
 3. Add the files from the email to the repository(that is add all the python codes)
     - This process is much easier if using the Bitbucker repo where even the codes is hosted.So a single cloning would do the job.
 
-4. Navigate to the repository folder and initialise the vagrant by
+4. Navigate to the repository folder(cloned folder directory in host OS) and initialise the vagrant by using the command in Commandprompt.
 ```
 vagrant up
 ```
